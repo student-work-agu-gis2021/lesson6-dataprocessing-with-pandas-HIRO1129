@@ -133,7 +133,6 @@ monthly_data = None
 data['MONTH'] = data['DATE'].str.slice(start = 0, stop = 6)
 monthly_data = pd.DataFrame({'month':1, 'temp_celsius':1})
 
-
 #CAUTION!!! DON'T EDIT THIS PART START
 # This test print should print the length of variable monthly_data
 print(len(monthly_data))
