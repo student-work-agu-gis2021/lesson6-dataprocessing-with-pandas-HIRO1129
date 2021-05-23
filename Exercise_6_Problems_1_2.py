@@ -61,6 +61,7 @@ day_count = None
 day_count = len(data)
 
 
+
 #CAUTION!!! DON'T EDIT THIS PART START
 # Print out the solution:
 print("Number of days:", day_count)
